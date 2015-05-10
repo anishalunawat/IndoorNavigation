@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:focusable="true"
+    android:id="@+id/select"
+    android:gravity="center"
+    android:background="@drawable/background"
+    style="@style/Base.TextAppearance.AppCompat.Large">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/city"
+            android:id="@+id/textView"
+            android:textColor="#333333"
+            style="@style/Base.TextAppearance.AppCompat.Large" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/building"
+            android:id="@+id/textView2"
+            android:textColor="#333333"
+            android:layout_marginTop="50dp"
+            style="@style/Base.TextAppearance.AppCompat.Large" />
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+         <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinnercity"
+            android:layout_marginLeft="30dp"/>
+
+
+
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinnerbuilding"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="60dp"
+            android:backgroundTintMode="src_over"
+            android:clickable="true"
+            android:nestedScrollingEnabled="true"
+            android:spinnerMode="dialog"
+            android:transitionGroup="false" />
+    </LinearLayout>
+
+    </LinearLayout>
+
+    <ImageButton
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/submit"
+        android:id="@+id/submit" />
+
+
+</LinearLayout>

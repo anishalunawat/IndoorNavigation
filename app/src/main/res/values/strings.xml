@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Indoor Navigation System</string>
+    <string name="hello_world">Welcome to Indoor Nevigation</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_destination_list">DestinationList</string>
+    <string name="search">Search Destination</string>
+    <string name="city">Select City</string>
+    <string name="building">Select Building</string>
+    <string name="submit">Submit</string>
+    <string name="select">Your destination is : </string>
+    <string name="next">Next Floor</string>
+    <string name="source">Source:</string>
+    <string name="change">Change</string>
+</resources>
+
